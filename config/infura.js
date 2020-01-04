@@ -1,4 +1,4 @@
 module.exports = {
-    kovan: 'https://kovan.infura.io/v3/79b4c5d7253f4f4fa59ed5cfa5dfa539',
-    main: 'https://mainnet.infura.io/v3/79b4c5d7253f4f4fa59ed5cfa5dfa539'
+    kovan: `https://kovan.infura.io/v3/${process.env.PROJECT_ID}`,
+    main: `https://mainnet.infura.io/v3/${process.env.PROJECT_ID}`
 }
