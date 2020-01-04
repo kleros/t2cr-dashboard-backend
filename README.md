@@ -11,4 +11,5 @@ Service and database for caching statistics on the T²CR and Badges.
 3.  Run `npm install` to install dependencies and then `npm start` to run the service in development mode.
 
 > To run the service in production mode use `node -r dotenv/config index.js`.
+
 > To start with PM2 use `pm2 start --node-args="-r dotenv/config" index.js --name t2cr-dashboard-backend`
